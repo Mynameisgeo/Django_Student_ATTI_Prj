@@ -1,0 +1,77 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARS SALES</title>
+    <link rel="stylesheet" href="{% static 'assn.css' %}">
+</head>
+<body>
+    <nav>
+    <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Sales">Sales</a></li>
+    </ul>
+    </nav>
+    
+    <nav>
+
+    <header id="Home">
+        <h1> CISCO MOTORS LTD</h1>
+        <img src="{% static 'bon.jpg' %}" alt="">
+    </header>
+
+    <section id="About">
+        <h2 class="one">About Us</h2>
+        <p>Our journey began in 1997 with a bold idea to digitize print classifieds, and today, we're part of CAR Group Limited, a global leader in digital marketplaces. At carsales, we're driven by a simple yet powerful mission: to make buying and selling a great experience.
+
+            For over a quarter of a century, we've been transforming the way Kenyans buy and sell vehicles. Our commitment to empowering customers has made us Kenya's number one online destination for buying and selling cars. Whether you're a consumer, dealer, or manufacturer, we strive to make the process easy and convenient for everyone.
+            
+            Feel free to customize this text to fit your specific car sales company! If you need further assistance or have any other requests, feel free to ask!</p><img src="{% static 'images.jpeg' %}" alt="Car 1">
+    </section>
+
+    <section id="Sales">
+        <h2 class="two">Sales Made</h2><br>
+       <div class="rich">
+        <p>.21 BMW XS300 =$40,000.</p><br>
+        <p>.3 MAYBACH =$76,000.</p><br>
+        <p>.12 TOYOTA SUPRA =$45,000.</p><br>
+        <p>.4 GWAGON BENTLEY =$340,000</p><br>
+        <p>.8 MERCEDES BENZ340 =$178,000</p><br></div>
+    </section>
+    <div class="car-container">
+        <div class="car">
+            <img src="{% static 'rrp.jpg' %}" alt="Car 1">
+            <h3>Car Model 1</h3>
+            <p>Rolls Royse Phatom</p>
+            <p>560HP</p>
+            <p>Mileage: 10,000 miles</p>
+            <p>Price: $125,000</p>
+        </div>
+        <div class="car">
+            <img src="{% static 'v12.jpg' %}" alt="Car 2">
+            <h3>Car Model 2</h3>
+            <p>Dodge Hellcat</p>
+            <p>800HP</p>
+            <p>Mileage: 8,500 miles</p>
+            <p>Price: $40,000</p>
+        </div>
+        <div class="car">
+            <img src="{% static 'srt.jpg' %}" alt="Car 3">
+            <h3>Car Model 3</h3>
+            <p>Jeep TruckHawk SRT</p>
+            <p>1200HP</p>
+            <p>Mileage: 12,200 miles</p>
+            <p>Price: $62,500</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>CM L.T.D:
+            Designed & Maintained by@cml
+        </p>
+    </footer>
+</body>
+</html>

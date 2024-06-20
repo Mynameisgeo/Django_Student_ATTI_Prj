@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Register you application here
 INSTALLED_APPS = [
     'Tr',
+    'Dennis',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
