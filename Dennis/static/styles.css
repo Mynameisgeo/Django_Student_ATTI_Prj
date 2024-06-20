@@ -1,0 +1,10 @@
+h1{
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    overflow: hidden;
+    height: 140px;
+    width: 190px;
+}
