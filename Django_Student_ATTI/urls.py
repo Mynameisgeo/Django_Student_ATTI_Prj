@@ -21,4 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('Tr/', include('Tr.urls')),
     path('Dennis/', include('Dennis.urls')),
+    path('MaxAttWeb/',include("MaxAttWeb.urls")),
+     path('inheritance/',include("inheritance.urls")),
 ]

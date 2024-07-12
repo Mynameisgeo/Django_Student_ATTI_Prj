@@ -31,8 +31,11 @@ ALLOWED_HOSTS = []
 # Application definition
 # Register you application here
 INSTALLED_APPS = [
-    'Tr',
+  
     'Dennis',
+    'MaxAttWeb',
+    'Tr',
+    'inheritance',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

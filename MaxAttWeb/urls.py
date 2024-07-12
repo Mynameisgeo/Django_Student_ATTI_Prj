@@ -4,5 +4,7 @@ from django.urls import path, include
 
 urlpatterns = [
     
-    path('home.html', views.home, name='home'),
+    path('maxhome/', views.maxhome, name='maxhome'),
+    path('about/', views.about, name='about'),
+
 ]
